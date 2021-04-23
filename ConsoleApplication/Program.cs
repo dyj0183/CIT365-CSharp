@@ -48,7 +48,7 @@ namespace ConsoleApplication
             Console.WriteLine("The area of the glass is " +
             glassArea + " square metres");
 
-            Console.WriteLine("Press 'Enter' to exit the process");
+            Console.WriteLine("Press 'Enter' to exit the process!");
             // it makes the program wait for a key press and it prevents the screen from being closed until a key is pressed
             while(Console.ReadKey().Key != ConsoleKey.Enter)
             {
